@@ -14,10 +14,31 @@
       integrity="sha256-U62jq/Jnfr93B4FQceG9WxzOg0o6WqJShZXL20/iKXQ="
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="src/styles.css">
   </head>
   <body>
-    <div id="searchbox"></div>
-    <div id="hits"></div>
+    <div class="header">
+      <div class="header-wrapper">
+        <div class="header-nav">
+          <h3>Home</h3>
+        </div>
+        <!-- Searchbox goes here -->
+        <div id="searchbox"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <!-- Refinementlist goes here -->
+        <div id="refinements"></div>
+      </div>
+      <div>
+        <!-- Hits go here -->
+        <div id="hits"></div>
+        <!-- Pagination goes here -->
+    <div id="pagination"></div>
+
+      </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
